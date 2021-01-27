@@ -5,20 +5,31 @@
 body{
     overflow-x:hidden;
 }
+
+a.one:link{font-family:Courier;text-decoration:none;}
+a.one:link{font-size:150%;text-decoration:none;}
+a.one:link {color:#0000ff;text-decoration:none;}
+a.one:visited {color:#0000ff;text-decoration:none;}
+a.one:hover {text-decoration:underline;}
+
 </style>
   <title>AstoRadio</title>
 </head>
 <body style="background-color:powderblue;">
 
-<div id="contentframe" style="position:relative; top:10px; left:54%;">
+<div id="contentframe" style="position:relative; top:10px; left:54%;overflow:hidden;">
 <iframe src="https://s41.radiolize.com/public/asto_radio/embed" frameborder="0" allowtransparency="true" style="width: 45%; min-height: 150px; border: 0;"></iframe></div>
 
-<div id="contentframe" style="position:relative; top:70px; left:1%;">
-<iframe src="https://minnit.chat/AstoRadio?embed&&nickname=" style="border:none;width:51%;height:700px;" allowTransparency="true"></iframe><br></div>
-
+<div style="position:relative; top:70px; left:20px;overflow:hidden;">
+<iframe src="https://minnit.chat/AstoRadio?embed&&nickname=" style="border:solid;width:51%;height:700px;" allowTransparency="true"></iframe>
 <p>
-  <div id="contentframe" style="position:relative; top:-650px; left:75%;">
-    <a href="About Us.html" target="_self">About Us!</a>
+  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
+    <a class="one" href="About Us.html" target="_self">About Us!</a>
+  </div>
+</p>
+<p>
+  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
+    <a class="one" href="Request.html" target="_self">Request a song!</a>
   </div>
 </p>
 </body>
