@@ -1,90 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style type="text/css">
+<style>
 body{
     overflow-x:hidden;
-    margin-top:1%;
-    margin-right:1%;
-    margin-left:2%;
-    margin-bottom:1%;
-    width: 100%;
-    height: 100%;
-
-    background-image:url(AstoRadio/logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 -30px;
-
 }
-a.one:link, a.one:visited {
-font-family:Courier;
-color: #aa70b8;
-text-decoration: none;
-}
-a.one:visited {color:#aa70b8;text-decoration:none;}
+
+a.one:link{font-family:Courier;text-decoration:none;}
+a.one:link{font-size:150%;text-decoration:none;}
+a.one:link {color:#F3AC3C;text-decoration:none;}
+a.one:visited {color:#F3AC3C;text-decoration:none;}
 a.one:hover {text-decoration:underline;}
 
-a.two:link, a.two:visited {
-font-family:Courier;
-color: #000000;
-text-decoration: none;
-}
-a.two:visited {color:#000000;text-decoration:none;}
-a.two:hover {text-decoration:underline;}
 
-
-.logo{
-  position: absolute;
-  right:250%;
-  bottom:-100%;
-}
-
-.sci
-{
-    position: absolute;
-    top: 46.5%;
-    right: 0;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.sci li
-{
-  list-style: none;
-}
-
-.sci li a
-{
-  display: inline-block;
-  margin: 5px 0;
-  transform: scale(0.6);
-}
 
 </style>
   <title>AstoRadio</title>
 </head>
-<body>
-<div style="position:absolute;left:55%;overflow:hidden;background:#8a3a98; width:40%; height: 125px;border-radius: 40px;"></div>
-<div style="position:relative;top:4px; left:57%;overflow:hidden;">
-<iframe src="https://s41.radiolize.com/public/asto_radio/embed" frameborder="0" allowtransparency="true" style=" width:20%; min-height: 80px;"></iframe></div>
-<div id="contentframe" style="position:relative; font-size: 20px;margin-top:-1%; margin-left:72%;">
-<div class="logo">
-	<img src="AstoRadio/logo2.png" width="450" height="186">
-</div>
-    <b><a class = "one" href="Request.html" target="_self">Request a song!</a></b></div>
-<ul class="sci">
-  <li><a href="#"><img src = "AstoRadio/fb.png"  width="100" height="89"></a></li>
-  <li><a href="#"><img src = "AstoRadio/insta.png" width="100" height="89"></a></li>
-</ul>
-<div style="position:relative; margin-top:3%;left:2%;overflow:hidden;">
-<iframe src="https://minnit.chat/AstoRadio?embed&&nickname=" style="border:solid;width:50%;height:600px;" allowTransparency="true"></iframe>
-<div id="contentframe" style="position:relative;font-size: 20px; margin-top:6%; margin-left:72%;">
-    <b><a class = "two" href="Request.html" target="_self">About Us!</a></b></div>
+<body style="background-color:#1A4341;">
+<div style="position:absolute; top:20px; left:57%;overflow:hidden;background:#998235; width: 750px; height: 125px;border-radius: 40px;"></div>
+<div style="position:relative; top:15px; left:59%;overflow:hidden;">
+<iframe src="https://s41.radiolize.com/public/asto_radio/embed" frameborder="0" allowtransparency="true" style=" max-width:570px; min-height: 80px;"></iframe></div>
+
+<div style="position:relative; top:70px; left:3%;overflow:hidden;">
+<iframe src="https://minnit.chat/AstoRadio?embed&&nickname=" style="border:solid;width:51%;height:700px;" allowTransparency="true"></iframe>
+<p>
+  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
+    <a class="one" href="About Us.html" target="_self">About Us!</a>
+  </div>
+</p>
+<p>
+  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
+    <a class="one" href="Request.html" target="_self">Request a song!</a>
+  </div>
+</p>
 </body>
 </html>
