@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-body{
-    overflow-x:hidden;
-}
-
-a.one:link{font-family:Courier;text-decoration:none;}
-a.one:link{font-size:150%;text-decoration:none;}
-a.one:link {color:#F3AC3C;text-decoration:none;}
-a.one:visited {color:#F3AC3C;text-decoration:none;}
-a.one:hover {text-decoration:underline;}
-
-
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AstoRadio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:#1A4341;">
-<div style="position:absolute; top:20px; left:57%;overflow:hidden;background:#998235; width: 750px; height: 125px;border-radius: 40px;"></div>
-<div style="position:relative; top:15px; left:59%;overflow:hidden;">
-<iframe src="https://s41.radiolize.com/public/asto_radio/embed" frameborder="0" allowtransparency="true" style=" max-width:570px; min-height: 80px;"></iframe></div>
-
-<div style="position:relative; top:70px; left:3%;overflow:hidden;">
-<iframe src="https://minnit.chat/AstoRadio?embed&&nickname=" style="border:solid;width:51%;height:700px;" allowTransparency="true"></iframe>
-<p>
-  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
-    <a class="one" href="About Us.html" target="_self">About Us!</a>
+<body>
+  <div class="bg">
+    <div class="container">
+      <div class="navbar">
+        <img id="img1" src="logo.png" class="logo">
+        <img id="img2" src="logom.png" class="logo">
+        <nav>
+            <iframe src="https://s41.radiolize.com/public/asto_radio/embed"  frameborder="0" allowtransparency="true" class="player"></iframe>
+        </nav>
+      </div>
+      <div class="request">
+        <b><a class="one" href="Request.html">Request a Song!</a></b>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <iframe src="https://minnit.chat/AstoRadio?embed&&nickname="></iframe>
+        </div>
+        <div class="social-links">
+          <img id="img3" src = "fb.png">
+          <img id="img4"src = "insta.png">
+        </div>
+      </div>
+        <div class="about">
+          <b><a class="two" href="https://www.astopatras.gr/">About Us!</a></b>
+        </div>
+    </div>
   </div>
-</p>
-<p>
-  <div id="contentframe" style="position:relative; top:-640px; left:75%;">
-    <a class="one" href="Request.html" target="_self">Request a song!</a>
-  </div>
-</p>
 </body>
 </html>
