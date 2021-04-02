@@ -1,40 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AstoRadio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logom.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Asto Radio</title>
 </head>
 <body>
-  <div class="bg">
-    <div class="container">
-      <div class="navbar">
-        <img id="img1" src="logo.png" class="logo">
-        <img id="img2" src="logom.png" class="logo">
-        <nav>
-            <iframe src="https://s41.radiolize.com/public/asto_radio/embed"  frameborder="0" allowtransparency="true" class="player"></iframe>
-        </nav>
-      </div>
-      <div class="request">
-        <b><a class="one" href="Request.html">Request a Song!</a></b>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <iframe src="https://minnit.chat/AstoRadio?embed&&nickname="></iframe>
+     <nav>
+        <img id="img" src="img/logom.png" class="logo">
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="request.html">Request</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-        <div class="social-links">
-          <a href="https://www.facebook.com/astoradio">
-          <img id="img3" src = "fb.png">
-          </a> 
-          <a href="https://www.instagram.com/astoradio/">
-          <img id="img4"src = "insta.png">
-          </a>
+    </nav>
+    <div class="bg">
+        <div class="player">
+            <iframe src="https://s41.radiolize.com/public/asto_radio/embed" frameborder="0" allowtransparency="true" class="radio"></iframe>
         </div>
-      </div>
-        <div class="about">
-          <b><a class="two" href="https://www.astopatras.gr/">About Us!</a></b>
+        <div class="row">
+            <div class="room">
+                <iframe src="https://minnit.chat/AstoRadio?embed&&nickname="  allowTransparency="true" class="chat"></iframe>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/astoradio">
+                    <img id="img3" src = "img/fb.png">
+                </a> 
+                <a href="https://www.instagram.com/astoradio/">
+                    <img id="img4"src = "img/insta.png">
+                </a>
+            </div>
         </div>
     </div>
-  </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
